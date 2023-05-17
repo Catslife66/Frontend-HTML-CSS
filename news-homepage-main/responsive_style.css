@@ -1,0 +1,44 @@
+@media screen and (max-width: 375px) {
+
+    .main-page {
+        padding: 30px 15px;
+    }
+
+    .toggle-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav {
+        display: none;
+    }
+    /* hover menu icon show the toggle menu interface */
+
+    .content-wrapper, .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-img {
+        background-image: url('assets/images/image-web-3-mobile.jpg');
+    }
+
+    .main h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .main-content button {
+        margin-top: 30px;
+    }
+
+    .news-div {
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    
+    .news-column {
+        margin-bottom: 20px;
+    }
+}
+
